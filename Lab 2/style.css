@@ -1,0 +1,160 @@
+/*General Styles*/
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c55783;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #d580d8;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+/*Header and Navigation*/
+header {
+  background-color: #010001;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #00aaff;
+}
+
+/*Intro Section*/
+.intro {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Section Box Styling*/
+.section-box {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 30px;
+}
+
+/*Profile Image*/
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Skills Table*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #003366;
+  padding: 10px;
+}
+
+th {
+  background-color: #003366;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Projects Section*/
+.project {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+/*Contact Form*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #00aaff;
+}
+
+/*Footer*/
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+/*Back to Top Button*/
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#backToTop:hover {
+  background-color: #00aaff;
+}

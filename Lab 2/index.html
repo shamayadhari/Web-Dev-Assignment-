@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shamaya Dhariwal - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Shamaya Dhariwal</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <section class="intro">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hello! I am a B.Tech Cyber Security student also learning web development. This is my personal portfolio website.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-box">
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+      <p>I am passionate about learning web development and building creative projects.</p>
+      <p>I like to explore and gain more insights on cyber Security </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-box">
+      <h2>My Skills</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Learning</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Beginner</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-box">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Calorie Tracker</h3>
+        <p>A Python program to log your daily calorie intake and set limits.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal one-page website to showcase your bio, skills, and contact details.</p>
+      </div>
+      <div class="project">
+        <h3>History Page</h3>
+        <p>A webpage that explores the history of the Maurya Empire.</p>
+      </div>
+      <div class="project">
+        <h3>User Form</h3>
+        <p> A form webpage with fields like name, email, and message for practicing form handling.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-box">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Shamaya Dhariwal. All rights reserved.</p>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop">Back to Top↑</button>
+  <script>
+  const btn = document.getElementById('backToTop');
+  btn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  </script>
+
+
+</body>
+</html>
